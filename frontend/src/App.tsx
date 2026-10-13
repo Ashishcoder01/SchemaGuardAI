@@ -1,3 +1,5 @@
+import AnimatedBackground from "./AnimatedBackground";
+
 import { useCallback, useEffect, useState } from "react";
 import {
   Activity,
@@ -225,6 +227,7 @@ function App() {
 
   return (
     <div className="app-shell">
+      <AnimatedBackground />
       <aside className="sidebar">
         <div className="brand">
           <div className="brand-mark">
